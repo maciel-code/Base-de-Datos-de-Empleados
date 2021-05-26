@@ -45,6 +45,9 @@ public class DatosPersonal {
 			double aumento = sueldo + porcentaje / 100;
 			sueldo += aumento;
 		};
+		public void sayHello() {
+			System.out.println("Hello!");
+		}
 
 //Atributos//
 		private String nombre;
